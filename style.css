@@ -1,0 +1,22 @@
+#iphone {
+    width: 320px;
+    height: 480px;
+    border: 1px solid #000;
+    border-radius: 30px;
+    background: #fff;
+    position: relative;
+}
+
+#home-screen {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    padding: 10px;
+}
+
+.app-icon {
+    width: 60px;
+    height: 60px;
+    background: gray;
+    border-radius: 10px;
+}
